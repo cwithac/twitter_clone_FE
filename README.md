@@ -13,6 +13,7 @@
   - Password Hash (bcrypt)
   - HTTPie
   - Redux
+  - Bootstrap 4
 ```
 
 _Modeled after 'Warbler' via Udemy: The Advanced Web Developer Bootcamp._

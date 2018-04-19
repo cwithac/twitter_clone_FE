@@ -17,6 +17,14 @@ export default class AuthForm extends Component {
     })
   }
 
+  handleSubmit = (e) => {
+    e.preventDefault();
+    const authType = this.props.signUp ? "signup" : "signin";
+    this.props.onAuth(authType, this.state).then(() => {
+      console.log("Logged In");
+    })
+  }
+
   render() {
     const {email, username, password, profileImageUrl} = this.state;
     const {heading, buttonText, signUp} = this.props;
@@ -38,6 +46,7 @@ export default class AuthForm extends Component {
                 <input className="form-control" id="image-url" name="profileImageUrl" onChange={this.handleChange} value={profileImageUrl} type="text"/>
                 </div>
               )}
+              <button className="btn btn-primary btn-block btn-lg" type="submit">{buttonText}</button>
             </form>
           </div>
         </div>

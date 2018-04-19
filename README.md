@@ -12,6 +12,7 @@
   - NPM
   - Password Hash (bcrypt)
   - HTTPie
+  - Redux
 ```
 
 _Modeled after 'Warbler' via Udemy: The Advanced Web Developer Bootcamp._

@@ -1,4 +1,4 @@
-# Twitter Clone
+# Twitter Clone Front End
 
 - Front End [Repo](https://github.com/cwithac/twitter_clone_FE) / Hosted
 - Back End [Repo](https://github.com/cwithac/twitter_clone) / Hosted

@@ -57,3 +57,15 @@ ul.nav.navbar-nav li {
   color: #FFF;
   text-shadow: 0 0 15px #535c68;
 }
+
+/* MESSAGES */
+
+#messages .list-group-item {
+  display: flex;
+  align-items: flex-start;
+  margin: .5em;
+}
+
+#messages:not(.no-hover) .list-group-item:hover {
+  background-color: #95afc0;
+}

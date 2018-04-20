@@ -64,8 +64,9 @@ ul.nav.navbar-nav li {
   display: flex;
   align-items: flex-start;
   margin: .5em;
+  background-color: #FFF;
 }
 
 #messages:not(.no-hover) .list-group-item:hover {
-  background-color: #95afc0;
+  background-color: #f6e58d;
 }

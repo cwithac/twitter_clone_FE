@@ -20,8 +20,8 @@ class MessageForm extends Component {
     return(
       <form onSubmit={this.handleNewMessage}>
         {this.props.errors.message && (<div className="alert alert-danger">{this.props.errors.message}</div>)}
-        <input type="text" className="form-control" value={this.state.message} onChange={e => this.setState({message: e.target.value})}/>
-        <button type="submit" className="btn btn-warning pull-right">Add my message!</button>
+        <input type="text" placeholder="What's going on?'" className="form-control" value={this.state.message} onChange={e => this.setState({message: e.target.value})}/>
+        <button id="addButton" type="submit" className="btn btn-warning pull-right">Add my Warble!</button>
       </form>
     )
   }

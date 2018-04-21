@@ -6,6 +6,7 @@ const UserAside = ({profileImageUrl, username}) => (
     <div className="panel panel-default">
       <div className="panel-body">
         <img src={profileImageUrl || DefaultProfileImg} alt={username} className="img-thumbnail" width="200" height="200"/>
+        <p className="text-center">{username}</p>
       </div>
     </div>
   </aside>

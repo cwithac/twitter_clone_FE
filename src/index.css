@@ -65,8 +65,33 @@ ul.nav.navbar-nav li {
   align-items: flex-start;
   margin: .5em;
   background-color: #FFF;
+  width: 500px;
 }
 
 #messages:not(.no-hover) .list-group-item:hover {
   background-color: #f6e58d;
+}
+
+.timeline-image {
+  border-radius: 50px;
+  height: 48px;
+  width: 48px;
+  margin: 2px 30px 10px 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+a.btn.btn-danger, a.btn.btn-danger:hover,
+.btn.btn-warning, .btn.btn-warning:hover {
+  color: #FFF;
+}
+
+#deleteButton {
+  margin-left: 50px;
+}
+
+#addButton {
+  margin-top: 20px;
 }
